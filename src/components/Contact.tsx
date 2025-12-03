@@ -1,6 +1,7 @@
 import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
 import { useState } from 'react';
 import { db } from "../firebase";
+// import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 export function Contact() {
@@ -40,6 +41,10 @@ export function Contact() {
     }
 
     setIsSubmitting(false);
+  };
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+     setFormData({ ...formData, [e.target.name]: e.target.value }); 
   };
 
   return (
