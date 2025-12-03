@@ -1,5 +1,7 @@
 import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
 import { useState } from 'react';
+import { db } from "../firebase";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -12,23 +14,32 @@ export function Contact() {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      alert('Thank you for your message! We will get back to you within 24 hours.');
-      setFormData({ name: '', email: '', phone: '', company: '', message: '' });
-      setIsSubmitting(false);
-    }, 1000);
-  };
+   try {
+      await addDoc(collection(db, "messages"), {
+        ...formData,
+        createdAt: serverTimestamp()
+      });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
+      alert("Thank you! Your message has been stored in our database.");
+
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        company: '',
+        message: ''
+      });
+
+    } catch (error) {
+      console.error("Error adding message: ", error);
+      alert("❗ ERROR — message was not sent. Check console.");
+    }
+
+    setIsSubmitting(false);
   };
 
   return (
