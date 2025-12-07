@@ -17,13 +17,26 @@ export function Services() {
     },
     {
       icon: Settings,
-      title: 'Installation Services',
-      description: 'Professional installation by our certified team to ensure safety and compliance.',
+      title: 'FRP Chute',
+      description: 'Durable and corrosion-resistant FRP chutes built for efficient material handling and long-term performance.',
       features: [
-        'Expert installation team',
-        'Safety compliance verification',
-        'Quick turnaround time',
-        'Minimal site disruption'
+        'High-strength, lightweight FRP material',
+        'Corrosion and chemical resistant',
+        'Customizable dimensions and design',
+        'Low maintenance and long service life'
+      ],
+      color: 'from-purple-500 to-purple-600'
+    },
+    
+    {
+      icon: Settings,
+      title: 'HDPE / PVC Chute',
+      description: 'Robust and weather-resistant HDPE/PVC chutes designed for smooth material flow and long-lasting performance in industrial environments.',
+      features: [
+        'High durability with impact resistance',
+        'Smooth inner surface for efficient material flow',
+        'UV, moisture, and corrosion resistant',
+        'Lightweight and easy to install'
       ],
       color: 'from-purple-500 to-purple-600'
     },
@@ -39,18 +52,7 @@ export function Services() {
       ],
       color: 'from-green-500 to-green-600'
     },
-    {
-      icon: Sparkles,
-      title: 'Custom Solutions',
-      description: 'Tailored debris management solutions designed to meet your specific project needs.',
-      features: [
-        'Site-specific design',
-        'Flexible configurations',
-        'Consulting services',
-        'Project planning assistance'
-      ],
-      color: 'from-orange-500 to-orange-600'
-    }
+
   ];
 
   return (
@@ -153,7 +155,7 @@ export function Services() {
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
               <button className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg hover:bg-white/20 transition-all border-2 border-white/30">
-                Call Us: +1 (555) 123-4567
+                Call Us: +91 8793867942
               </button>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Wrench } from 'lucide-react';
-
+// import logo from
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,8 +33,9 @@ export function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollToSection('home')}>
-            <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-2 rounded-lg">
-              <Wrench className="text-white" size={24} />
+            <div className="bg-gradient-to-br from-white-600  p-2 rounded-lg">
+              {/* <Wrench className="text-white" size={24} /> */}
+              <img src="./assets/web_logo.png" className="h-12 w-auto" alt='logo'/>
             </div>
             <div className="flex flex-col">
               <span className="text-gray-900 leading-tight">Innovative</span>
@@ -80,6 +81,13 @@ export function Navbar() {
             >
               Contact Us
             </button>
+            <a
+               href="https://drive.google.com/uc?export=download&id=1oPszO7tzdedpj5T7vuPm_M-lcjVjQzCO"
+              download="InnovativeEngineering_Brochure.pdf"
+              className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            >
+              Download Our Brochure
+            </a>
           </div>
 
           {/* Mobile Menu Button */}

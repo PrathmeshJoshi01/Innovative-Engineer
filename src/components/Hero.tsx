@@ -73,11 +73,11 @@ export function Hero() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               <div className="text-center lg:text-left">
-                <div className="text-white mb-1">500+</div>
+                <div className="text-white mb-1">120+</div>
                 <p className="text-blue-200">Projects Completed</p>
               </div>
               <div className="text-center lg:text-left">
-                <div className="text-white mb-1">15+</div>
+                <div className="text-white mb-1">6+</div>
                 <p className="text-blue-200">Years Experience</p>
               </div>
               <div className="text-center lg:text-left">

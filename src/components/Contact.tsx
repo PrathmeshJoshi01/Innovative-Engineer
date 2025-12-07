@@ -84,7 +84,7 @@ export function Contact() {
                   </div>
                   <div className="flex-1">
                     <h4 className="text-gray-900 mb-2">Phone</h4>
-                    <p className="text-blue-600 mb-1">+1 (555) 123-4567</p>
+                    <p className="text-blue-600 mb-1">+91 86 98 028 683</p>
                     <p className="text-gray-500">Mon-Fri 8:00 AM - 6:00 PM</p>
                   </div>
                 </div>
@@ -97,7 +97,7 @@ export function Contact() {
                   </div>
                   <div className="flex-1">
                     <h4 className="text-gray-900 mb-2">Email</h4>
-                    <p className="text-blue-600 mb-1">info@innovativeeng.com</p>
+                    <p className="text-blue-600 mb-1">innovativeengineering.project01@gmail.com</p>
                     <p className="text-gray-500">We'll respond within 24 hours</p>
                   </div>
                 </div>
@@ -111,9 +111,9 @@ export function Contact() {
                   <div className="flex-1">
                     <h4 className="text-gray-900 mb-2">Address</h4>
                     <p className="text-gray-600">
-                      123 Engineering Way<br />
-                      Business District<br />
-                      City, State 12345
+                     Survey No.37, Behind Nilambari Trader’s,<br />
+                      Walhekarwadi Main Road, Chinchwad Pune,<br />
+                     Maharashtra 411033
                     </p>
                   </div>
                 </div>
@@ -142,7 +142,7 @@ export function Contact() {
               <p className="text-orange-100 mb-3">
                 For urgent matters, our emergency team is available around the clock.
               </p>
-              <p className="text-white">Emergency: +1 (555) 999-0000</p>
+              <p className="text-white">Emergency: +91 8793867942</p>
             </div>
           </div>
 
@@ -277,14 +277,14 @@ export function Contact() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a
-                href="tel:+15551234567"
+                href="tel:+91 86 98 028 683"
                 className="bg-white text-blue-600 px-8 py-4 rounded-xl hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl inline-flex items-center gap-2"
               >
                 <Phone size={20} />
                 Call Us Now
               </a>
               <a
-                href="mailto:info@innovativeeng.com"
+                href="mailto: innovativeengineering.project01@gmail.com"
                 className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-xl hover:bg-white/20 transition-all border-2 border-white/30 inline-flex items-center gap-2"
               >
                 <Mail size={20} />

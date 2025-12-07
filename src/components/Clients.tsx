@@ -3,47 +3,71 @@ import { Building2, Star, Quote } from 'lucide-react';
 export function Clients() {
   const testimonials = [
     {
-      company: 'ABC Construction Co.',
+      company: 'Mantra Properties',
       message: 'Innovative Engineering provided excellent debris chute solutions for our high-rise project. Their professional service and quality products exceeded our expectations.',
-      author: 'John Smith',
+      author: 'Sachin Raut',
       position: 'Project Manager',
       rating: 5
     },
     {
-      company: 'Metro Demolition Services',
+      company: 'Pyramid Group',
       message: 'Their team was responsive and the installation was completed ahead of schedule. We have been working with them for 5 years now. Highly recommend their services.',
-      author: 'Sarah Johnson',
+      author: '',
       position: 'Operations Director',
       rating: 5
     },
     {
       company: 'BuildRight Contractors',
       message: 'We have been using their debris chute systems for multiple projects. Reliable, safe, and easy to work with. The best in the business!',
-      author: 'Michael Brown',
+      author: '',
       position: 'Site Supervisor',
-      rating: 5
+      rating: 4
     }
   ];
 
   const clients = [
-    'ABC Construction Co.',
-    'Metro Demolition Services',
-    'BuildRight Contractors',
-    'Urban Development Corp.',
-    'Skyline Builders',
-    'Premier Construction Group',
-    'CityScape Projects',
-    'Elite Demolition Inc.',
-    'Foundation Masters',
-    'Tower Construction Ltd.',
-    'Modern Build Solutions',
-    'Heritage Restoration Co.'
+    'Kalpataru Ltd',
+    'Kumar Properties',
+    'VTP Reality',
+    'Mantra Properties',
+    'Nyati group.',
+    'Magarpatta city group.',
+    'Kohinoor group.',
+    'Aadvani Realty',
+    'ANP Group',
+    'Pyramid Group',
+    'Bhandari Associates',
+    'Tejraj Group.',
+    'Vision Group',
+    'Garve group',
+    'Ravima Ventures',
+    'Iconic Properties',
+    'Pristine Properties.',
+    'Legacy Group',
+    'Shree Venkatesh Buildcon',
+    'Namrata Construction',
+    'Shapoorji Pallonji Group',
+    'Sonigara Group',
+    'Austin Realty',
+    'Jamatani Group',
+    'Tanish Group',
+    'Pethakar Projects',
+    'The Excellaa',
+    'Kamalraj Properties',
+    'Silver group',
+    'Varma Infra',
+    'Venkateshwara Properties',
+    'Primal properties',
+    'Wedant Group',
+    'D R Gavhane',
+    'Urban Space Creater'
+    
   ];
 
   return (
     <section id="clients" className="py-24 bg-white relative overflow-hidden">
       {/* Background Decoration */}
-      <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-blue-50 rounded-full blur-3xl opacity-30 -z-10"></div>
+      <div className="absolute top-0 right-0 w-1/3 h-1/3 bg--50 rounded-full blur-3xl opacity-30 -z-10"></div>
       <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-purple-50 rounded-full blur-3xl opacity-30 -z-10"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

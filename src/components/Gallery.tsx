@@ -7,7 +7,7 @@ export function Gallery() {
 
   const images = [
     {
-      url: 'https://images.unsplash.com/photo-1666137270524-5131ac07314d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBkZWJyaXMlMjBjaHV0ZXxlbnwxfHx8fDE3NjQ0MTkxNzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      src: "/assets/7.jpg",
       title: 'Debris Chute Installation',
       category: 'Installation'
     },
@@ -97,19 +97,19 @@ export function Gallery() {
         {/* Stats Section */}
         <div className="mt-20 grid md:grid-cols-4 gap-8">
           <div className="text-center p-6 bg-white rounded-2xl shadow-lg border border-gray-100">
-            <div className="text-blue-600 mb-2">500+</div>
+            <div className="text-blue-600 mb-2">100+</div>
             <p className="text-gray-600">Projects Completed</p>
           </div>
           <div className="text-center p-6 bg-white rounded-2xl shadow-lg border border-gray-100">
-            <div className="text-blue-600 mb-2">15+</div>
+            <div className="text-blue-600 mb-2">6+</div>
             <p className="text-gray-600">Years of Experience</p>
           </div>
           <div className="text-center p-6 bg-white rounded-2xl shadow-lg border border-gray-100">
-            <div className="text-blue-600 mb-2">200+</div>
+            <div className="text-blue-600 mb-2">70+</div>
             <p className="text-gray-600">Happy Clients</p>
           </div>
           <div className="text-center p-6 bg-white rounded-2xl shadow-lg border border-gray-100">
-            <div className="text-blue-600 mb-2">50+</div>
+            <div className="text-blue-600 mb-2">30+</div>
             <p className="text-gray-600">Team Members</p>
           </div>
         </div>

@@ -10,10 +10,9 @@ export function About() {
           <div className="inline-block mb-4">
             <span className="bg-blue-100 text-blue-600 px-4 py-2 rounded-full">About Our Company</span>
           </div>
-          <h2 className="text-gray-900 mb-6">Building Excellence Since 2008</h2>
+          <h2 className="text-gray-900 mb-6">Building Excellence Since 2018</h2>
           <p className="max-w-3xl mx-auto text-gray-600">
-            With over 15 years of experience, Innovative Engineering has established itself as a trusted leader in providing 
-            safe, efficient, and reliable debris chute solutions for the construction industry.
+           Founded in 2018 Founded in with specific focus on waste management solutions Innovative is considered as most trusted brand in garbage chutes. Our garbage chutes are manufactured in compliance with National Building Code of India(NBC2005)and manufactured in stainless steel. Innovative garbage chutes are highly durable and robust. It’s also includes fire safety features like auto closing fire door at bottom of chute,fire sprinklers and fire rated intake door.
           </p>
         </div>
 
@@ -30,7 +29,7 @@ export function About() {
               />
               {/* Stats Overlay */}
               <div className="absolute -bottom-8 -right-8 bg-white rounded-2xl shadow-2xl p-6 border-4 border-blue-500">
-                <div className="text-blue-600 mb-1">500+</div>
+                <div className="text-blue-600 mb-1">100+</div>
                 <p className="text-gray-600">Successful Projects</p>
               </div>
             </div>
@@ -56,7 +55,7 @@ export function About() {
               <div className="bg-gradient-to-br from-blue-50 to-blue-100/50 p-4 rounded-xl border border-blue-200">
                 <div className="flex items-center gap-3 mb-2">
                   <Target className="text-blue-600" size={24} />
-                  <span className="text-blue-600">15+ Years</span>
+                  <span className="text-blue-600">6+ Years</span>
                 </div>
                 <p className="text-gray-600">Industry Experience</p>
               </div>
